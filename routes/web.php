@@ -60,8 +60,17 @@ Route::get('/work-with-us', function () {
 });
 
 Route::get('/works', function () {
-    return view('frontend.work.work');
+    return view('frontend.portofolio');
 });
-Route::get('/works/work', function () {
-    return view('frontend.work.work');
+
+Route::get('/works/honda-live', function () {
+    return view('frontend.work.honda-live');
+});
+
+Route::get('/works/honda-exhibition', function () {
+    return view('frontend.work.honda-exhibition');
+});
+
+Route::get('/works/pupuk-indonesia', function () {
+    return view('frontend.work.pupuk-indonesia');
 });

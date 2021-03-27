@@ -12,9 +12,8 @@
 
         <div class="flex flex-col-reverse justify-between md:flex-row mt-10">
             <div class="mt-5">
-                <span
-                    class="block tracking-widest uppercase font-bold text-xs text-center md:text-left mb-2 text-white">Headquarter</span>
-                <p class="text-center md:text-left">
+                <span class="block tracking-widest uppercase font-bold text-xs mb-2 text-white">Headquarter</span>
+                <p>
                     Jl. Brigadir Jend. Katamso no. 19A <br>
                     Kota Bandung <br>
                     Jawa Barat 40122
@@ -120,7 +119,7 @@
             </div>
 
         </div>
-        <span class="block pt-5 text-center text-xs">
+        <span class="block pt-5 text-left md:text-center text-xs">
             &copy; 2021 PT DealPro Indonesia
         </span>
 

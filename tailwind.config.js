@@ -27,10 +27,15 @@ module.exports = {
                     900: "#141422",
                 },
             },
+            scale: {
+                300: "3",
+            },
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            scale: ["active"],
+        },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/aspect-ratio")],
 };

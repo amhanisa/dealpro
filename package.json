@@ -22,8 +22,10 @@
         "tailwindcss": "^2.0.3"
     },
     "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0",
         "aos": "^2.3.4",
         "swiper": "^6.5.0",
+        "vanilla-lazyload": "^17.3.1",
         "yt-player": "^3.5.0"
     }
 }

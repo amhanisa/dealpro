@@ -10,6 +10,13 @@ AOS.init({
 });
 /* END OF AOS */
 
+/* START LAZY LOAD */
+import LazyLoad from "vanilla-lazyload";
+const aLazyLoad = new LazyLoad({
+    elements_selector: ".lazy",
+});
+/* END LAZY LOAD */
+
 /* START OF NAVBAR SCROLL*/
 let header = document.querySelector(".header");
 window.addEventListener("scroll", function () {
@@ -29,7 +36,6 @@ let navbarToggle = document.querySelector("#nav-toggler");
 let mobileMenu = document.querySelector("#menu");
 
 navbarToggle.addEventListener("click", function () {
-    // console.log("asd");
     mobileMenu.classList.toggle("active");
     this.classList.toggle("active");
     document.body.classList.toggle("overflow-y-hidden");
@@ -81,8 +87,8 @@ const opts = {
     captions: false,
 };
 
-const playerFrame = document.querySelector("#yt-hero");
-if (playerFrame) {
+const playerHero = document.querySelector("#yt-hero");
+if (playerHero) {
     const player = new YTPlayer("#yt-hero", opts);
     player.mute();
     player.load("DrJZYPGtSFc", true);
@@ -101,6 +107,25 @@ if (playerFrame) {
 }
 
 /* END OF YOUTUBE HERO */
+
+const playerProduction = document.querySelector("#yt-production");
+if (playerProduction) {
+    const player = new YTPlayer("#yt-production", opts);
+    player.mute();
+    player.load("DrJZYPGtSFc", true);
+    player.setPlaybackQuality("default");
+
+    player.on("unstarted", () => {
+        player.play();
+    });
+    player.on("playing", () => {
+        let cover = document.querySelector(".production-cover");
+        cover.classList.add("hidden");
+    });
+    player.on("ended", () => {
+        player.play();
+    });
+}
 
 /* START OF ACCORDION */
 let accordions = document.querySelectorAll(".accordion");
@@ -122,10 +147,8 @@ accordions.forEach(function (accordion) {
 
 /* START OF SWIPER */
 import Swiper from "swiper";
-import SwiperCore, { Navigation, Pagination } from "swiper/core";
-import { maxHeight } from "tailwindcss/defaulttheme";
-SwiperCore.use([Navigation, Pagination]);
-// import "swiper/swiper-bundle.min.css";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper/core";
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 /* END OF SWIPER */
 
 /* SWIPER SERVICE*/
@@ -139,14 +162,6 @@ const swiperService = new Swiper(".swiper-service", {
         type: "bullets",
     },
     breakpoints: {
-        640: {
-            // slidesPerView: 2,
-            // spaceBetween: 20,
-        },
-        768: {
-            // slidesPerView: 4,
-            // spaceBetween: 40,
-        },
         1024: {
             pagination: false,
             centeredSlides: false,
@@ -181,39 +196,70 @@ const swiperClient = new Swiper(".swiper-client", {
     slidesPerView: 5,
     centeredSlides: true,
     loop: true,
-    // spaceBetween: 30,\
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+    spaceBetween: 50,
+    autoplay: {
+        delay: 1000,
     },
     breakpoints: {
         1024: {
             centeredSlides: false,
             slidesPerView: 5,
-            // spaceBetween: 50,
+            spaceBetween: 0,
         },
     },
 });
 /* SWIPER CLIENT*/
 
+/* SWIPER ABOUTUS*/
+const swiperAboutUs = new Swiper(".swiper-about-us", {
+    direction: "horizontal",
+    loop: true,
+
+    pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+/* SWIPER ABOUTUS*/
+
+/* SWIPER EVENT*/
+const swiperEvent = new Swiper(".swiper-event", {
+    direction: "horizontal",
+    loop: true,
+
+    pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+/* SWIPER EVENT*/
+
 /* START CONTACT BUBBLE */
 let contact = document.querySelector(".contact-bubble");
 contact.addEventListener("click", function () {
     toggleContactBubble();
-});
-let close = this.querySelector(".contact-bubble-close");
-close.addEventListener("click", function () {
-    toggleContactBubble();
-});
-function toggleContactBubble() {
-    let contact = document.querySelector(".contact-bubble");
-    let list = contact.querySelector(".contact-bubble-list");
-    contact.classList.toggle("active");
 
-    if (list.style.maxHeight) {
-        list.style.maxHeight = null;
-    } else {
-        list.style.maxHeight = list.scrollHeight + "px";
-    }
+    console.log("contact");
+});
+
+function toggleContactBubble() {
+    console.log("toggle");
+    // let contact = document.querySelector(".contact-bubble");
+    let list = document.querySelector(".contact-bubble-list");
+    list.classList.toggle("active");
+
+    // if (list.style.maxHeight) {
+    //     list.style.maxHeight = null;
+    // } else {
+    //     list.style.maxHeight = list.scrollHeight + "px";
+    // }
 }
 /* END CONTACT BUBBLE */

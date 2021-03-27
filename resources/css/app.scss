@@ -180,9 +180,8 @@ header {
     height: 140%;
     top: -20%;
     left: -20%;
-    transform: scale(3);
 
-    @apply md:scale-100;
+    @apply transform scale-300 md:scale-100;
 }
 
 .home-service-slide {
@@ -219,22 +218,11 @@ header {
 /* CAREER */
 
 /* START CONTACT BUBBLE */
-.contact-bubble {
-    &.active {
-        @apply rounded-md w-52;
-        .contact-bubble-list {
-            @apply opacity-100 w-auto h-auto;
-        }
-        .contact-bubble-icon {
-            @apply opacity-0 max-h-0 p-0;
-        }
-    }
+.contact-bubble-list {
+    @apply invisible opacity-0 transition-all transform translate-y-4;
 
-    .contact-bubble-list {
-        @apply opacity-0 max-h-0 w-0 h-0 transition-all;
-    }
-    .contact-bubble-icon {
-        @apply opacity-100 p-3 transition-all;
+    &.active {
+        @apply visible opacity-100 transform translate-y-0;
     }
 }
 /* END CONTACT BUBBLE */

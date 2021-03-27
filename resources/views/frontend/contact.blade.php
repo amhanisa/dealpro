@@ -58,8 +58,8 @@
 
         <div>
 
-            <h1 class="font-bold text-6xl text-red-500">Let's work <br> together</h1>
-            <p class="text-white mt-10">kita butuh kerjaan, tolong hubungi kami</p>
+            <h1 class="font-bold text-6xl text-red-500">Let's do something <br>with the PROS</h1>
+            <p class="text-white mt-10">Our teams are excited to collaborate with your idea and creativity.</p>
             <div class="flex justify-center my-10">
                 <a href="mailto:contact@dealpro.id"
                     class="text-red-500 text-2xl py-2 px-5 border-red-500 hover:bg-red-500 hover:text-white border-2">contact@dealpro.id</a>

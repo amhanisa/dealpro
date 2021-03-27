@@ -21,8 +21,8 @@
                 <hr class="border-t-2">
             </div>
             <div>
-                <div class="mb-5 px-6 py-3 border-2 border-gray-600 shadow-lg rounded-md" data-aos="fade-left">
-
+                <div class="mb-5 px-6 py-3 border-2 border-transparent shadow-lg rounded-md bg-gray-800"
+                    data-aos="fade-left">
                     <div class="accordion flex justify-between items-center cursor-pointer py-3">
                         <div>
                             <h4 class="font-bold text-white">Copywriter</h4>
@@ -56,6 +56,8 @@
                             [Name] - [Position].</p>
                     </div>
                 </div>
+
+
                 <div class="mb-5 px-6 py-3 border-2 border-gray-600 shadow-lg rounded-md" data-aos="fade-left">
 
                     <div class="accordion flex justify-between items-center cursor-pointer py-3">

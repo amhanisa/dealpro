@@ -42,7 +42,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="{{ url('works') }}" class="text-3xl md:text-base">Portofolio</a>
+                    <a href="{{ url('works') }}" class="text-3xl md:text-base">Portfolio</a>
                 </li>
                 <li>
                     <a href="{{ url('work-with-us') }}" class="text-3xl md:text-base">Work with Us</a>
