@@ -17,6 +17,10 @@
 }
 // FIX SWIPER JS
 
+p {
+    @apply leading-relaxed;
+}
+
 /* HEADER */
 header {
     @apply z-10;
@@ -52,7 +56,7 @@ header {
                 @apply bg-transparent;
 
                 a {
-                    @apply block px-2 py-1 text-lg;
+                    @apply block px-2 py-2 text-lg;
 
                     &:hover {
                         @apply bg-transparent;

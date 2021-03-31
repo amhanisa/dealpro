@@ -112,7 +112,7 @@ const playerProduction = document.querySelector("#yt-production");
 if (playerProduction) {
     const player = new YTPlayer("#yt-production", opts);
     player.mute();
-    player.load("DrJZYPGtSFc", true);
+    player.load("w76ELks7CYs", true);
     player.setPlaybackQuality("default");
 
     player.on("unstarted", () => {

@@ -1,12 +1,15 @@
-<footer class=" bg-dark-purple-900 p-8 text-gray-500">
-    <div class="container mx-auto">
+<footer class="bg-gray-900 pt-16 pb-16 text-gray-500">
+    <div class="container px-8 mx-auto">
+
+
+        <div class="border-l-2 w-px h-32 border-red-500 mx-auto mb-8"></div>
 
         <span class="block text-3xl md:text-7xl text-center w-full text-white">
             #<span class="font-bold">deal</span>withthe<span class="font-bold">pro</span>
         </span>
         <div class="flex mt-5">
             <a href="mailto:contact@dealpro.id"
-                class="mx-auto text-red-500 hover:text-white text-xl px-5 py-2 border-2 border-red-500 hover:bg-red-500 hover:text-white">contact@dealpro.id</a>
+                class="mx-auto text-red-500 hover:text-white text-xl px-8 py-2 border-2 border-red-500 hover:bg-red-500">contact@dealpro.id</a>
         </div>
 
 
@@ -27,7 +30,7 @@
                                 class="block tracking-widest uppercase font-bold text-xs md:text-right mb-2 text-white">Company</span>
                             <ul>
                                 <li><a href="{{ url('about-us') }}"
-                                        class="block md:text-right  hover:text-red-500">About Us</a>
+                                        class="block md:text-right  hover:text-red-500 py-1">About Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -36,10 +39,10 @@
                                 class="block tracking-widest uppercase font-bold text-xs md:text-right mb-2 text-white">Career</span>
                             <ul>
                                 <li><a href="{{ url('career') }}"
-                                        class="block md:text-right  hover:text-red-500">Professional</a>
+                                        class="block md:text-right  hover:text-red-500 py-1">Professional</a>
                                 </li>
                                 <li><a href="{{ url('career#internship') }}"
-                                        class="block md:text-right  hover:text-red-500">Internship</a>
+                                        class="block md:text-right  hover:text-red-500 py-1">Internship</a>
                                 </li>
                             </ul>
                         </div>
@@ -48,20 +51,20 @@
                         <span
                             class="block tracking-widest uppercase font-bold text-xs md:text-right mb-2 text-white">Service</span>
                         <ul>
-                            <li><a href="{{ url('event') }}" class="block md:text-right  hover:text-red-500">Event
+                            <li><a href="{{ url('event') }}" class="block md:text-right  hover:text-red-500 py-1">Event
                                     Organizer</a>
                             </li>
                             <li><a href="{{ url('production') }}"
-                                    class="block md:text-right  hover:text-red-500">Production</a>
+                                    class="block md:text-right  hover:text-red-500 py-1">Production</a>
                             </li>
                             <li><a href="{{ url('printing') }}"
-                                    class="block md:text-right  hover:text-red-500">Printing</a>
+                                    class="block md:text-right  hover:text-red-500 py-1">Printing</a>
                             </li>
                             <li><a href="{{ url('clothing') }}"
-                                    class="block md:text-right  hover:text-red-500">Clothing</a>
+                                    class="block md:text-right  hover:text-red-500 py-1">Clothing</a>
                             </li>
                             <li><a href="{{ url('medical') }}"
-                                    class="block md:text-right  hover:text-red-500">Medical</a>
+                                    class="block md:text-right  hover:text-red-500 py-1">Medical</a>
                             </li>
                         </ul>
                     </div>

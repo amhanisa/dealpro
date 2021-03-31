@@ -2,16 +2,12 @@
 
 @section('content')
 
-<!-- <section class="py-32 bg-gray-900">
-
-</section> -->
-
 <section class="h-screen overflow-x-hidden">
-    <div class="absolute z-10 w-full">
+    <!-- <div class="absolute z-10 w-full">
         <div class="container mx-auto mt-32">
             <h1 class="font-bold text-center text-4xl md:text-6xl text-white">DealPro Event</h1>
         </div>
-    </div>
+    </div> -->
     <div class="swiper-container swiper-event">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -62,13 +58,23 @@
 
 </section>
 
+<section class="py-32 bg-gray-900 text-gray-300">
+    <div class="container mx-auto px-5 md:w-sm-container">
+        <h1 class="font-bold text-6xl text-red-500 mb-8">DealPro Event</h1>
+        <p>DealPro Event is both off air and hybrid event division of DealPro Indonesia. The passionate
+            team of DealPro Event is ready to transform your idea of a great moment into something even
+            more beautiful in reality.
+        </p>
+    </div>
+</section>
+
 
 
 <section class="py-32 bg-gray-900 overflow-x-hidden">
     <div class="container mx-auto px-5 mb-16" data-aos="fade-left">
         <div class="h-64 relative">
-            <img src="{{ asset('img/event/event4.jpg') }}" alt="Event Planning"
-                class="object-cover w-full h-full rounded-xl">
+            <img data-src="{{ asset('img/event/event4.jpg') }}" alt="Event Planning"
+                class="lazy object-cover w-full h-full rounded-xl">
 
             <div
                 class="absolute top-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-60 rounded-xl">
@@ -81,8 +87,8 @@
     </div>
     <div class="container mx-auto px-5 mb-16" data-aos="fade-left">
         <div class="h-64 relative">
-            <img src="{{ asset('img/event/event10.jpg') }}" alt="Event Planning"
-                class="object-cover w-full h-full rounded-xl">
+            <img data-src="{{ asset('img/event/event6.jpg') }}" alt="Corporate Event"
+                class="lazy object-cover w-full h-full rounded-xl">
 
             <div
                 class="absolute top-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-60 rounded-xl">
@@ -95,8 +101,8 @@
     </div>
     <div class="container mx-auto px-5 mb-16" data-aos="fade-left">
         <div class="h-64 relative">
-            <img src="{{ asset('img/event/event.jpg') }}" alt="Event Planning"
-                class="object-cover w-full h-full rounded-xl">
+            <img data-src="{{ asset('img/event/event5.jpg') }}" alt="Exhibition & Marketing Activation"
+                class="lazy object-cover w-full h-full rounded-xl">
 
             <div
                 class="absolute top-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-60 rounded-xl">
@@ -110,8 +116,8 @@
     </div>
     <div class="container mx-auto px-5 mb-16" data-aos="fade-left">
         <div class="h-64 relative">
-            <img src="{{ asset('img/event/event8.jpg') }}" alt="Event Planning"
-                class="object-cover w-full h-full rounded-xl">
+            <img data-src="{{ asset('img/event/event7.jpg') }}" alt="MICE"
+                class="lazy object-cover w-full h-full rounded-xl">
 
             <div
                 class="absolute top-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-60 rounded-xl">
@@ -125,8 +131,8 @@
     </div>
     <div class="container mx-auto px-5 mb-16" data-aos="fade-left">
         <div class="h-64 relative">
-            <img src="{{ asset('img/event/event9.jpg') }}" alt="Event Planning"
-                class="object-cover w-full h-full rounded-xl">
+            <img data-src="{{ asset('img/event/event8.jpg') }}" alt="Gathering"
+                class="lazy object-cover w-full h-full rounded-xl">
 
             <div
                 class="absolute top-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-60 rounded-xl">

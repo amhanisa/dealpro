@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="pt-32 pb-16 bg-gray-900 text-gray-300">
-    <div class="container w-full md:w-1/2 mx-auto px-5">
+    <div class="container w-full md:w-sm-container mx-auto px-5">
 
 
         <div class="grid grid-cols-3 gap-4 mb-10">
@@ -27,26 +27,28 @@
     </div>
 </section>
 <section class="py-16 bg-gray-900 text-gray-300">
-    <div class="container w-full md:w-1/2 mx-auto px-5">
-        <div class="aspect-w-16 aspect-h-9 mb-6">
+    <div class="container w-full md:w-sm-container mx-auto px-5">
+        <div class="aspect-w-16 aspect-h-9 my-12">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DrJZYPGtSFc"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <h3 class="text-white font-bold text-xl mb-4">Problem</h3>
+        <h3 class="text-center text-white font-bold text-xl mb-4 mt-8">Problem</h3>
+        <hr class="w-16 border-t-2 border-red-500 mx-auto mb-8">
         <p class="mb-4">Introducing the newest Honda City Hatchback, Honda Bandung Center wanted to approach people
             digitally so the
             audiences could engage through their smartphone easily.
         </p>
-        <h3 class="text-white font-bold text-xl mb-4">Solution</h3>
+        <h3 class="text-center text-white font-bold text-xl mb-4 mt-8">Solution</h3>
+        <hr class="w-16 border-t-2 border-red-500 mx-auto mb-8">
         <p class="mb-4">DealPro Event created Honda Exhibition Live on YouTube, a streaming program to showcase Honda’s
             latest product, Honda City Hatchback 2021. This event was held in main atrium Trans Studio Mall Bandung and
             was following Covid-19 safety protocol like providing an automatic hand sanitizer and restricting visitors'
             number to the exhibition. To attract visitors in Trans Studio Mall Bandung to the event venue, DealPro Event
             provided virtual entertainment by Project POP and B.R.I.N.K.A.
         </p>
-        <div class="aspect-w-16 aspect-h-9 mb-6">
+        <div class="aspect-w-16 aspect-h-9 my-12">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VViP9wwxx1o"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -55,6 +57,10 @@
         <p class="mb-4">The event was also streamed on YouTube and has been watched by over 2000 viewers. There were
             also quizzes and games so the audiences could engage with the event.
         </p>
+
+        <img data-src="{{ asset('img/works/honda-live/honda-live2.jpg') }}" alt="Honda Live" class="lazy my-8">
+        <img data-src="{{ asset('img/works/honda-live/honda-live3.jpg') }}" alt="Honda Live" class="lazy my-8">
+        <img data-src="{{ asset('img/works/honda-live/honda-live4.jpg') }}" alt="Honda Live" class="lazy my-8">
     </div>
 </section>
 <section class="py-16 bg-gray-900 text-gray-300">

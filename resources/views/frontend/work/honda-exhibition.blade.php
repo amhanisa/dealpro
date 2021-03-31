@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="pt-32 pb-16 bg-gray-900 text-gray-300">
-    <div class="container w-full md:w-1/2 mx-auto px-5">
+    <div class="container w-full md:w-sm-container mx-auto px-5">
 
 
         <div class="grid grid-cols-3 gap-4 mb-10">
@@ -29,37 +29,48 @@
     </div>
 </section>
 <section class="py-16 bg-gray-900 text-gray-300">
-    <div class="container w-full md:w-1/2 mx-auto px-5">
-        <div class="aspect-w-16 aspect-h-9 mb-6">
+    <div class="container w-full md:w-sm-container mx-auto px-5">
+        <div class="aspect-w-16 aspect-h-9 my-12">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P5Zt8THRCuQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <h3 class="text-white font-bold text-xl mb-4">Problem</h3>
+        <h3 class="text-center text-white font-bold text-xl mb-4 mt-8">Problem</h3>
+        <hr class="w-16 border-t-2 border-red-500 mx-auto mb-8">
         <p class="mb-4">Honda Bandung Center aimed to increase people's awareness of their products and improve their
             sales portfolio in 2021. To achieve this target, creative approaches and well planned activation strategies
             were needed.
         </p>
-        <h3 class="text-white font-bold text-xl mb-4">Solution</h3>
+        <h3 class="text-center text-white font-bold text-xl mb-4 mt-8">Solution</h3>
+        <hr class="w-16 border-t-2 border-red-500 mx-auto mb-8">
         <p class="mb-4">DealPro Indonesia through DealPro Event initiated the Honda Exhibition in order to increase
             people's awareness about Honda Bandung Center's products. This event was held in Trans Studio Mall Bandung
             and was following Covid-19 safety protocol such as providing an automatic hand sanitizer and restricting
             visitors' number to the exhibition. DealPro Event was providing virtual customer service experience through
             Zoom digital meeting platform.
         </p>
+        <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition2.jpg') }}" alt="Honda Exhibition"
+            class="lazy my-8">
+        <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition3.jpg') }}" alt="Honda Exhibition"
+            class="lazy my-8">
+        <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition4.jpg') }}" alt="Honda Exhibition"
+            class="lazy my-8">
+        <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition5.jpg') }}" alt="Honda Exhibition"
+            class="lazy my-8">
         <p class="mb-4">DealPro Event also helped Honda Bandung Center to optimize digital marketing through effective
             social media activity like virtual quiz, promotional video, Tiktok Challenge and Media publication
             gathering.
         </p>
+        <div class="grid grid-cols-3 gap-4">
+            <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition6.jpg') }}" alt="Honda Exhibition"
+                class="lazy my-8">
+            <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition7.jpg') }}" alt="Honda Exhibition"
+                class="lazy my-8">
+            <img data-src="{{ asset('img/works/honda-exhibition/honda-exhibition8.jpg') }}" alt="Honda Exhibition"
+                class="lazy my-8">
+        </div>
 
-    </div>
-</section>
-<section class="py-16 bg-gray-900 text-gray-300">
-    <div class="container mx-auto px-5 flex justify-center">
-        <a href="https://www.youtube.com/watch?v=12yAuuCl5p4" class="text-center px-6 py-2 bg-red-500 text-white">
-            Watch Full Program on Youtube
-        </a>
     </div>
 </section>
 

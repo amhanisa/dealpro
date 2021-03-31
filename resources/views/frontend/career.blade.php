@@ -9,8 +9,10 @@
     </div>
 </section>
 <section class="py-16 bg-gray-900 text-gray-300">
-    <div class="container mx-auto px-5">
-        <p>Kita buka lowongan buat kamu gabung ke dalam keluarga kami.</p>
+    <div class="container mx-auto px-5 md:w-sm-container">
+        <p>Kita buka lowongan buat kamu gabung ke dalam keluarga kami. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nihil est eius quis, expedita neque officia cum optio voluptatum necessitatibus pariatur
+            atque aperiam veritatis molestias id vel voluptatem debitis error illum!</p>
     </div>
 </section>
 <section class="py-16 bg-gray-900 text-gray-300 overflow-x-hidden">
@@ -49,7 +51,7 @@
                             <li>Bisa bekerja dalam tekanan</li>
                         </ol>
 
-                        <p class="text-center">Send your <strong>CV</strong> and <strong>Portfolio</strong> to <a
+                        <p class="text-center my-3">Send your <strong>CV</strong> and <strong>Portfolio</strong> to <a
                                 href="mailto:contact@dealpro.id"
                                 class="text-red-500 hover:text-red-700">contact@dealpro.id</a> with
                             subject
@@ -98,7 +100,7 @@
         </div>
     </div>
 </section>
-<section class="py-16 bg-gray-900 text-gray-300 overflow-x-hidden">
+<section class="py-16 bg-gray-900 text-gray-300 overflow-x-hidden" id="internship">
     <div class="container mx-auto px-5">
         <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
             <div class="md:w-80">

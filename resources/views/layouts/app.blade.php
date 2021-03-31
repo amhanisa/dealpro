@@ -63,7 +63,7 @@
 
         <div class="fixed bottom-0 right-0 m-5 z-10 ">
             <div
-                class="contact-bubble flex items-center bg-green-500 rounded-md shadow-xl cursor-pointer transform scale-100 hover:bg-green-400 active:scale-90 transition-all">
+                class="contact-bubble flex items-center bg-yellow-400 hover:bg-yellow-300 rounded-md shadow-xl cursor-pointer transform scale-100  active:scale-90 transition-all">
 
                 <svg class="fill-current text-white ml-4 mr-1 my-2" xmlns="http://www.w3.org/2000/svg" width="24"
                     height="24" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@
                 </div>
                 <ul>
                     <li>
-                        <a href="https://api.whatsapp.com/send/?phone=6281809394117&text=Halo%20DealPro"
+                        <a href="https://api.whatsapp.com/send/?phone=6282262666654&text=Halo%20DealPro"
                             class="flex py-3 px-3 font-bold hover:bg-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path
@@ -101,7 +101,7 @@
                     </li>
                     <li>
 
-                        <a href="https://api.whatsapp.com/send/?phone=6281809394117&text=Halo%20DealPro"
+                        <a href="https://api.whatsapp.com/send/?phone=6281224967381&text=Halo%20DealPro"
                             class="flex py-3 px-3 font-bold hover:bg-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path
@@ -112,7 +112,7 @@
                             </span></a>
                     </li>
                 </ul>
-                <div class="bg-green-500 w-full h-1">
+                <div class="bg-yellow-400 w-full h-1">
 
                 </div>
             </div>

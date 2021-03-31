@@ -60,7 +60,7 @@ Route::get('/work-with-us', function () {
 });
 
 Route::get('/works', function () {
-    return view('frontend.portofolio');
+    return view('frontend.portfolio');
 });
 
 Route::get('/works/honda-live', function () {

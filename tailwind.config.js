@@ -30,6 +30,9 @@ module.exports = {
             scale: {
                 300: "3",
             },
+            width: {
+                "sm-container": "60rem",
+            },
         },
     },
     variants: {

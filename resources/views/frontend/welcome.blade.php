@@ -22,7 +22,7 @@
 <section class="py-16 bg-gray-900 text-gray-300">
     <div class="container mx-auto px-5">
         <div class="grid grid-rows-3 grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
-            <div class="border-2 p-4 border-green-500">
+            <div class="border-2 p-4 border-green-500" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="font-bold text-green-500 mb-1">Who we are?</h2>
                 <hr class="border-t-2 border-green-500 w-1/2 mb-4">
                 <p>
@@ -31,7 +31,7 @@
                     creative industry.
                 </p>
             </div>
-            <div class="border-2 p-4 border-yellow-500">
+            <div class="border-2 p-4 border-yellow-500" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="font-bold text-yellow-500 mb-1">We are eager to help everyone</h2>
                 <hr class="border-t-2 border-yellow-500 w-1/2 mb-4">
                 <p>
@@ -39,7 +39,7 @@
                     to help your company grow through your creative ideas.
                 </p>
             </div>
-            <div class="border-2 p-4 border-blue-500">
+            <div class="border-2 p-4 border-blue-500" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="font-bold text-blue-500 mb-1">What we believe in</h2>
                 <hr class="border-t-2 border-blue-500 w-1/2 mb-4">
                 <p>DealPro Indonesia believes that every moment matters. Our ideas to combine innovation, excitement, &
@@ -50,7 +50,7 @@
     </div>
 </section>
 
-<section class="py-16 overflow-x-hidden bg-gray-900 text-gray-400">
+<section class="py-32 overflow-x-hidden bg-gray-900 text-gray-400">
     <div class="container mx-auto">
         <div class="swiper-container swiper-service ">
             <div class="swiper-wrapper">
@@ -184,9 +184,9 @@
 
 <section class="py-16 overflow-hidden bg-gray-900 text-gray-400">
 
-    <h2 class="font-bold text-center text-lg md:text-2xl mb-5 text-white">We are honored to work with leading companies
-        and government officials</h2>
-    <div class="swiper-container swiper-client ">
+    <h2 class="font-bold text-center text-lg md:text-2xl mb-16 text-white">We are honored to work with <br> leading
+        companies and government officials</h2>
+    <!-- <div class="swiper-container swiper-client ">
         <div class="swiper-wrapper">
             <div class="swiper-slide ">
                 <div class="w-32 md:w-60 mx-auto">
@@ -243,15 +243,39 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </div> -->
 
-<!-- <section class="py-32 overflow-x-hidden bg-gray-900 text-gray-300">
-    <div class="container mx-auto px-5" data-aos="fade-left">
-        <p>After 13 years, DealPro Indonesia believes that every moment matters. Our ideas to combine innovation,
-            excitement, & creativity collide with extraordinary dreams will create extraordinary experience!</p>
+    <div class="container mx-auto px-5 md:w-sm-container">
+        <div class="flex flex-wrap justify-center">
+            <img data-aos="fade-up" data-aos-delay="300" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/pupuk-indonesia.png') }}" alt="Pupuk Indonesia">
+            <img data-aos="fade-up" data-aos-delay="350" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/pupuk-kujang.png') }}" alt="Pupuk Kujang">
+            <img data-aos="fade-up" data-aos-delay="400" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/honda.png') }}" alt="Honda">
+            <img data-aos="fade-up" data-aos-delay="450" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/kimia-farma.png') }}" alt="Kimia Farma">
+            <img data-aos="fade-up" data-aos-delay="500" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/mercedes.png') }}" alt="Mercedes Benz">
+            <img data-aos="fade-up" data-aos-delay="550" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/bjb.png') }}" alt="Bank BJB">
+            <img data-aos="fade-up" data-aos-delay="600" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/summarecon.png') }}" alt="Summarecon Bandung">
+            <img data-aos="fade-up" data-aos-delay="650" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/hdci.png') }}" alt="HDCI Bandung">
+            <img data-aos="fade-up" data-aos-delay="700" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/jafra.png') }}" alt="JAFRA">
+            <img data-aos="fade-up" data-aos-delay="750" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/bijb.png') }}" alt="BIJB">
+            <img data-aos="fade-up" data-aos-delay="800" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/jtrust.png') }}" alt="J Trust Bank">
+            <img data-aos="fade-up" data-aos-delay="850" class="lazy w-32 md:w-48"
+                src="{{ asset('img/clients/gadis.png') }}" alt="Gadis Magazine">
+        </div>
     </div>
-    <div id="player"></div>
-</section> -->
+    <h2 class="font-bold text-center text-lg md:text-2xl my-16 text-white" data-aos="fade-up" data-aos-delay="1000">...
+        and many more
+    </h2>
+</section>
 
 @stop
