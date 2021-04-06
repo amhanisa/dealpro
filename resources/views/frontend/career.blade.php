@@ -15,7 +15,7 @@
                 <h2 class="font-bold text-xl text-white">Professional</h2>
                 <hr class="border-t-2">
             </div>
-            <div class="md:w-auto">
+            <div class="md:w-full">
                 <div class="mb-5 px-6 py-3 border-2 border-transparent shadow-lg rounded-md bg-gray-800"
                     data-aos="fade-left">
                     <div class="accordion flex justify-between items-center cursor-pointer py-3">
@@ -229,6 +229,84 @@
             <div class="md:w-80 flex-none">
                 <h2 class="font-bold text-xl">Internship</h2>
                 <hr class="border-t-2">
+            </div>
+            <div class="md:w-full">
+                <div class="mb-5 px-6 py-3 border-2 border-transparent shadow-lg rounded-md bg-gray-800"
+                    data-aos="fade-left">
+                    <div class="accordion flex justify-between items-center cursor-pointer py-3">
+                        <div>
+                            <h4 class="font-bold text-white">Internship</h4>
+
+                        </div>
+                        <span class="accordion-icon">
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <hr class="border-t-2 mb-4">
+
+                        <p class="mb-3">
+                            We are hiring Interns to join our team!
+                        </p>
+
+                        <p class="mb-3 font-bold">
+                            Overall Requirements:
+                        </p>
+                        <ol class="list-inside list-decimal mb-3">
+                            <li class="mb-1">
+                                Enjoys working in a fast-paced environment
+                            </li>
+                            <li class="mb-1">
+                                Excellent English speaking and writing skills
+                            </li>
+                            <li class="mb-1">
+                                Fast learner and hands-on executor with a positive attitude
+                            </li>
+                            <li class="mb-1">
+                                Creative, curious, and analytical
+                            </li>
+                            <li class="mb-1">
+                                Experienced in desired positions is a plus
+                            </li>
+                            <li class="mb-1">
+                                Able to do 3 months internship (full Monday-Friday), can start as soon as possible
+                            </li>
+                        </ol>
+
+                        <p class="mb-3 font-bold">
+                            What Can You Expect From Us:
+
+                        </p>
+                        <ol class="list-inside list-decimal mb-3">
+                            <li class="mb-1">
+                                Learn and work with the best event planners in the world
+                            </li>
+                            <li class="mb-1">
+                                Get the opportunity to build a huge, meaningful professional network
+                            </li>
+                            <li class="mb-1">
+                                Work with a dynamic and highly motivated team with flat hierarchies
+                            </li>
+                            <li class="mb-1">
+                                Experience great working atmosphere in a diverse environment
+                            </li>
+                            <li class="mb-1">
+                                Challenging tasks with direct responsibility
+                            </li>
+                            <li class="mb-1">
+                                Greater knowledge about event planning and its newest trends
+                            </li>
+                        </ol>
+
+                        <p class="text-center my-3">Send your <strong>CV</strong> to <a href="mailto:contact@dealpro.id"
+                                class="text-red-500 hover:text-red-700">contact@dealpro.id</a> with
+                            subject
+                            [Name] - Internship [Month Start] - [Month End].</p>
+                    </div>
+                </div>
             </div>
 
         </div>
