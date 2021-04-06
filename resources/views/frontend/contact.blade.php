@@ -58,7 +58,8 @@
 
         <div>
 
-            <h1 class="font-bold text-6xl text-red-500">Let's do <br>something <br>with <br> the Pros</h1>
+            <h1 class="font-bold text-6xl text-red-500 mb-10">Let's do <br>something <br>with <br> the Pros</h1>
+
             <p class="text-white mt-10">Our teams are excited to collaborate with <br> your idea and creativity.</p>
             <div class="flex justify-center my-10">
                 <a href="mailto:contact@dealpro.id"

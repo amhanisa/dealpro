@@ -91,7 +91,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://api.whatsapp.com/send/?phone=6281809394117&text=Halo%20DealPro"
+                        <a href="https://api.whatsapp.com/send/?phone=6282262666654&text=Halo%20DealPro"
                             class="flex py-3 px-3 font-bold hover:bg-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path

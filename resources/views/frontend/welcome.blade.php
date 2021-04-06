@@ -246,7 +246,7 @@
     </div> -->
 
     <div class="container mx-auto px-5 md:w-sm-container">
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center items-center">
             <img data-aos="fade-up" data-aos-delay="300" class="lazy w-32 md:w-48"
                 src="{{ asset('img/clients/pupuk-indonesia.png') }}" alt="Pupuk Indonesia">
             <img data-aos="fade-up" data-aos-delay="350" class="lazy w-32 md:w-48"
