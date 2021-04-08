@@ -58,8 +58,7 @@
                     <div
                         class="transform scale-100 hover:scale-105 transition duration-150 ease-in-out bg-gray-800 border-2 border-transparent hover:border-red-500 shadow-xl rounded-lg p-8 h-full w-80 lg:w-56 2xl:w-72 mx-4">
                         <a href="{{ url('event') }}">
-                            <img data-src="{{ asset('img/service/event.gif') }}" alt="DealPro Event Icon"
-                                class="mb-5 lazy">
+                            <img src="{{ asset('img/service/event.gif') }}" alt="DealPro Event Icon" class="mb-5">
                             <h2 class="font-bold text-center text-xl text-white">DealPro Event</h2>
                             <p class="text-center">Our professional & creative event organizer will grant your wishful
                                 moment to a spectacular experience</p>
@@ -70,8 +69,7 @@
                     <div
                         class="transform scale-100 hover:scale-105 transition duration-150 ease-in-out bg-gray-800 border-2 border-transparent hover:border-red-500 shadow-xl rounded-lg p-8 h-full w-80 lg:w-56 2xl:w-72 mx-4">
                         <a href="{{ url('production') }}">
-                            <img data-src="{{ asset('img/service/production.gif') }}" alt="DealProduction Icon"
-                                class="mb-5 lazy">
+                            <img src="{{ asset('img/service/production.gif') }}" alt="DealProduction Icon" class="mb-5">
                             <h2 class="font-bold text-center text-xl text-white">Deal Production</h2>
                             <p class="text-center">National acclaimed event production supplier with high skilled staff
                                 to construct your event installation</p>
@@ -82,8 +80,7 @@
                     <div
                         class="transform scale-100 hover:scale-105 transition duration-150 ease-in-out bg-gray-800 border-2 border-transparent hover:border-red-500 shadow-xl rounded-lg p-8 h-full w-80 lg:w-56 2xl:w-72 mx-4">
                         <a href="{{ url('printing') }}">
-                            <img data-src="{{ asset('img/service/printing.gif') }}" alt="DealPrint Icon"
-                                class="mb-5 lazy">
+                            <img src="{{ asset('img/service/printing.gif') }}" alt="DealPrint Icon" class="mb-5">
                             <h2 class="font-bold text-center text-xl text-white">DealPrint Indonesia</h2>
                             <p class="text-center">From outdoor to indoor printing, our print, promotion & packaging
                                 experts are ready to turn your project into a thing of beauty
@@ -95,7 +92,7 @@
                     <div
                         class="transform scale-100 hover:scale-105 transition duration-150 ease-in-out bg-gray-800 border-2 border-transparent hover:border-red-500 shadow-xl rounded-lg p-8 h-full w-80 lg:w-56 2xl:w-72 mx-4">
                         <a href="{{ url('clothing') }}">
-                            <img data-src="{{ asset('img/service/clothing.gif') }}" alt="DCLTH Icon" class="mb-5 lazy">
+                            <img src="{{ asset('img/service/clothing.gif') }}" alt="DCLTH Icon" class="mb-5">
                             <h2 class="font-bold text-center text-xl text-white">DCLTH</h2>
                             <p class="text-center">Boost your company branding through the unique experience of fashion
                                 customization
@@ -107,8 +104,7 @@
                     <div
                         class="transform scale-100 hover:scale-105 transition duration-150 ease-in-out bg-gray-800 border-2 border-transparent hover:border-red-500 shadow-xl rounded-lg p-8 h-full w-80 lg:w-56 2xl:w-72 mx-4">
                         <a href="{{ url('medical') }}">
-                            <img data-src="{{ asset('img/service/medical.gif') }}" alt="Deal Medical Icon"
-                                class="mb-5 lazy">
+                            <img src="{{ asset('img/service/medical.gif') }}" alt="Deal Medical Icon" class="mb-5">
                             <h2 class="font-bold text-center text-xl text-white">Deal Medical</h2>
                             <p class="text-center">Performance scrubs for nurses and medical staff that feel great and
                                 look outstanding to maintain professional appearances

@@ -55,7 +55,7 @@ Route::get('/medical', function () {
     return redirect("https://www.instagram.com/dealmedical/");
 });
 
-Route::get('/work-with-us', function () {
+Route::get('/deal-with-us', function () {
     return view('frontend.contact');
 });
 

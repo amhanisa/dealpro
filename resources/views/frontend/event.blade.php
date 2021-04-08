@@ -68,6 +68,75 @@
     </div>
 </section>
 
+<section class="py-16 bg-gray-900 text-gray-300">
+    <div class="container mx-auto px-5 md:w-sm-container">
+        <h1 class="text-white font-bold text-center text-xl md:text-2xl mb-5" data-aos="fade-up">Our Workflow</h1>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-01.svg') }}" class="w-16 md:w-24 mr-5" alt="Brief from client">
+            <div>
+                <h2 class="font-bold text-lg text-white">Brief from client</h2>
+                <p>Listen and understanding your desire are our priority</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-02.svg') }}" class="w-16 md:w-24 mr-5" alt="Brainstorming">
+            <div>
+                <h2 class="font-bold text-lg text-white">Brainstorming</h2>
+                <p>Brainstorming with our team to make something unbelieveaable for you and bring your dream event to
+                    reality</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-03.svg') }}" class="w-16 md:w-24 mr-5" alt="Proposal">
+            <div>
+                <h2 class="font-bold text-lg text-white">Proposal</h2>
+                <p>Pouring out the summary of our brainstorm into the first sketch</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-04.svg') }}" class="w-16 md:w-24 mr-5" alt="Present to Client">
+            <div>
+                <h2 class="font-bold text-lg text-white">Present to Client</h2>
+                <p>Interpret our first sketch to start our journey</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-05.svg') }}" class="w-16 md:w-24 mr-5" alt="Final Proposal">
+            <div>
+                <h2 class="font-bold text-lg text-white">Final Proposal</h2>
+                <p>Putting our mind into one to reach our goal</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-06.svg') }}" class="w-16 md:w-24 mr-5" alt="Create a Team">
+            <div>
+                <h2 class="font-bold text-lg text-white">Create a Team</h2>
+                <p>Create the best team for your special day</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-07.svg') }}" class="w-16 md:w-24 mr-5" alt="The Day of Event">
+            <div>
+                <h2 class="font-bold text-lg text-white">The Day of Event</h2>
+                <p>The realization of our spectacular event</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-08.svg') }}" class="w-16 md:w-24 mr-5" alt="Evaluation">
+            <div>
+                <h2 class="font-bold text-lg text-white">Evaluation</h2>
+                <p>Analyze the event for better service</p>
+            </div>
+        </div>
+        <div class="flex items-center mb-3" data-aos="fade-left">
+            <img src="{{ asset('img/event/icon-event-09.svg') }}" class="w-16 md:w-24 mr-5" alt="Report">
+            <div>
+                <h2 class="font-bold text-lg text-white">Report</h2>
+                <p>It's an honor to report our performance to you</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section class="py-32 bg-gray-900 overflow-x-hidden">

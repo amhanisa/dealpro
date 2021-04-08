@@ -45,7 +45,7 @@
                     <a href="{{ url('works') }}" class="text-3xl md:text-base">Portfolio</a>
                 </li>
                 <li>
-                    <a href="{{ url('work-with-us') }}" class="text-3xl md:text-base">Work with Us</a>
+                    <a href="{{ url('deal-with-us') }}" class="text-3xl md:text-base">Deal with Us</a>
                 </li>
             </ul>
         </nav>

@@ -127,7 +127,7 @@
                         class="object-cover w-full h-full rounded-xl">
                     <div
                         class="absolute w-full h-full top-0 flex justify-center items-center bg-black bg-opacity-60 rounded-xl">
-                        <h2 class="font-bold text-center text-3xl">
+                        <h2 class="font-bold text-center text-xl md:text-3xl">
                             EVENT ORGANIZER
                         </h2>
                     </div>
@@ -137,7 +137,7 @@
                         class="object-cover w-full h-full rounded-xl">
                     <div
                         class="absolute w-full h-full top-0 flex justify-center items-center bg-black bg-opacity-60 rounded-xl">
-                        <h2 class="font-bold text-center text-3xl">
+                        <h2 class="font-bold text-center text-xl md:text-3xl">
                             PRINTING
                         </h2>
                     </div>
@@ -147,7 +147,7 @@
                         class="object-cover w-full h-full rounded-xl">
                     <div
                         class="absolute w-full h-full top-0 flex justify-center items-center bg-black bg-opacity-60 rounded-xl">
-                        <h2 class="font-bold text-center text-3xl">
+                        <h2 class="font-bold text-center text-xl md:text-3xl">
                             MEDICAL
                         </h2>
                     </div>
@@ -158,7 +158,7 @@
                         class="object-cover w-full h-full rounded-xl">
                     <div
                         class="absolute w-full h-full top-0 flex justify-center items-center bg-black bg-opacity-60 rounded-xl">
-                        <h2 class="font-bold text-center text-3xl">
+                        <h2 class="font-bold text-center text-xl md:text-3xl">
                             PRODUCTION
                         </h2>
                     </div>
@@ -168,7 +168,7 @@
                         class="object-cover w-full h-full rounded-xl">
                     <div
                         class="absolute w-full h-full top-0 flex justify-center items-center bg-black bg-opacity-60 rounded-xl">
-                        <h2 class="font-bold text-center text-3xl">
+                        <h2 class="font-bold text-center text-xl md:text-3xl">
                             CLOTHING
                         </h2>
                     </div>
@@ -184,7 +184,7 @@
             <img src="{{ asset('svg/dealwiththepro.svg') }}" alt="deal with the pro tagline" class="w-48 my-auto">
             <p class="my-auto">
                 Our motto represents our confidence and motivation to lead West Java’s creative industry.
-                #dealwiththepro is
+                <span class="italic">#dealwiththepro</span> is
                 not only a textual slogan that you can find across our social media posts, but also our proven work and
                 dedication to help you recreate your idea of a beautiful moment.
             </p>
