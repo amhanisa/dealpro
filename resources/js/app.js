@@ -91,7 +91,7 @@ const playerHero = document.querySelector("#yt-hero");
 if (playerHero) {
     const player = new YTPlayer("#yt-hero", opts);
     player.mute();
-    player.load("DrJZYPGtSFc", true);
+    player.load("XNvrpElHzfg", true);
     player.setPlaybackQuality("default");
 
     player.on("unstarted", () => {
